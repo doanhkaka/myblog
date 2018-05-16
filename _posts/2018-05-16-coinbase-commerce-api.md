@@ -2,7 +2,7 @@
 layout: post
 title:  "Tích hợp Coinbase Commerce API"
 date:   2018-05-16 11:23:23 +0700
-categories: php
+categories: PHP
 ---
 
 Hi các bạn,
