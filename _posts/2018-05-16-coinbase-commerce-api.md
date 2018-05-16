@@ -7,7 +7,7 @@ categories: PHP
 
 Hi các bạn,
 
-Hôm trước mình có cái task tích hợp phiên bản mới của Coinbase là [Coinbase Commerce API](https://commerce.coinbase.com/docs/api/).
+Hôm trước mình có cái task tích hợp phiên bản mới của Coinbase là [Coinbase Commerce API](https://commerce.coinbase.com/docs/api/){:target="_blank"}.
 
 Đau cái là bọn này chưa có sanbox để test, phải xài tiền thật cho nên mình sẽ chia sẻ log request của Coinbase Commerce cho các bạn khỏi mất $.
 
@@ -205,12 +205,12 @@ IV. Webhook security:
 `Every Coinbase Commerce webhook request includes an X-CC-Webhook-Signature header. This header contains the SHA256 HMAC signature of the raw request payload, computed using your webhook shared secret as the key. You can obtain your shared webhook secret from your settings page. Always make sure that you verify the webhook signature before acting on it inside your system.`
 
 - Nhưng Mình phải mò mất mấy tiếng đồng hồ mới tính ra được cái Signature của nó T_T, sau khi mò ra thì thấy mình gà vãi :p.
-- Các bạn hãy dùng đống json bên trên kết hợp với `secret key` ở trong [settings](https://commerce.coinbase.com/dashboard/settings) để nhào nặn ra được `signature`.
+- Các bạn hãy dùng đống json bên trên kết hợp với `secret key` ở trong [settings](https://commerce.coinbase.com/dashboard/settings){:target="_blank"} để nhào nặn ra được `signature`.
 - Nhớ cài đặt Webhook subscriptions trước khi test để Coinbase bắn thông tin tới URL đó với yêu cầu domain phải là `https` (Mình sử dụng hàng của `c9.io`).
 
 V. Check hàng nào:
 
-- Test được hàng luôn [ở đây](https://www.freeformatter.com/hmac-generator.html), nhớ chọn SHA256 nhóe.
+- Test được hàng luôn [ở đây](https://www.freeformatter.com/hmac-generator.html){:target="_blank"}, nhớ chọn SHA256 nhóe.
 
 - Code php thì thế này:
 ```php
