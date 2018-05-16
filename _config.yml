@@ -18,9 +18,9 @@ theme: jekyll-theme-so-simple
 locale: en-US
 title: "Code Xuyên Màn Đêm"
 description: "Chia sẻ để thành công"
-baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+baseurl:  # the subpath of your site, e.g. "/blog"
+url: 
+logo: assets/images/templates/logo.png # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
@@ -104,6 +104,7 @@ footer_links:
 #Page
 page:
    comments: 1
+   url: https://doanhkaka.netlify.com/
 #Jekyll
 jekyll:
     environment: "production"
