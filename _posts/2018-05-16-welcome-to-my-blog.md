@@ -7,3 +7,6 @@ categories: About
 
 Hi các bạn,
 
+Chào mừng đến với blog của Mềnh, Mình sẽ tiếp tục chia sẻ kinh nghiệm, các vấn đề gặp phải trong quá trình cày cuốc.
+
+Hí hí
